@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-ui bg-background-light text-background-dark;
+    }
+}
+
+/* Custom CSS from mockups */
+#loading-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background-color: #1a170b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+#loading-screen.hidden-loading {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.crest-fade {
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.btn-hover-fill {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    z-index: 1;
+}
+
+.btn-hover-fill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d4af37;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: -1;
+}
+
+.btn-hover-fill:hover {
+    color: #221e10;
+}
+
+.btn-hover-fill:hover::before {
+    transform: scaleX(1);
+}
+
+.drop-cap::first-letter {
+    float: left;
+    font-size: 5rem;
+    line-height: 0.8;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    color: #d4af37;
+    font-weight: 300;
+}
+
+.parallax-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+    z-index: 0;
+    will-change: transform;
+}
+
+/* Custom Input and Sliders */
+.custom-input:focus {
+    outline: none;
+    border-bottom-color: #D4AF37;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #D4AF37;
+    cursor: pointer;
+    margin-top: -6px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+    background: #1A1A1A;
+}
+
+.pulse-text {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .5;
+    }
+}
