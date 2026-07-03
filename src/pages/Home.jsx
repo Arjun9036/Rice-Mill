@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       {/* Legacy Statement */}
-      <div className="bg-background-light min-h-screen pt-32 pb-16">
+      <div id="about-us" className="bg-background-light min-h-screen pt-32 pb-16">
         <div className="max-w-[1440px] mx-auto px-6 md:px-12">
           <h1 className="text-5xl md:text-7xl font-heading font-semibold text-center mb-6 text-background-dark">About Us</h1>
           <div className="w-24 h-1 bg-primary mx-auto mb-12"></div>

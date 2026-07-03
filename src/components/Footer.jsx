@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Corporate Links */}
           <div className="flex flex-col gap-4 lg:ml-auto">
             <h3 className="font-ui font-semibold text-xs uppercase tracking-widest text-primary mb-2">Corporate</h3>
-            <Link to="/about" className="text-white/70 hover:text-white transition-colors text-sm font-medium">About Us</Link>
+            <Link to="/#about-us" className="text-white/70 hover:text-white transition-colors text-sm font-medium">About Us</Link>
             <Link to="/process" className="text-white/70 hover:text-white transition-colors text-sm font-medium">Our Process</Link>
             <Link to="/quality" className="text-white/70 hover:text-white transition-colors text-sm font-medium">Quality Assurance</Link>
             <Link to="/contactus" className="text-white/70 hover:text-white transition-colors text-sm font-medium">Reach Us</Link>
