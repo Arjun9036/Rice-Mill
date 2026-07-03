@@ -61,11 +61,10 @@ export default function Header() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-background-light text-background-dark shadow-lg border-t border-black/5 flex flex-col p-4 gap-4">
-          <Link to="/" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">The Heritage</Link>
+          <Link to="/" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">Home</Link>
           <Link to="/process" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">Process</Link>
           <Link to="/collections" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">Collections</Link>
           <Link to="/quality" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">Quality</Link>
-          <Link to="/about" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">About Us</Link>
           <Link to="/contactus" onClick={toggleMenu} className="text-sm font-semibold uppercase tracking-widest hover:text-primary">Contact Us</Link>
         </div>
       )}
