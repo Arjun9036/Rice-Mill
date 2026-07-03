@@ -16,7 +16,7 @@ export default function Layout() {
     // Initial loading screen (from mockup 1)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1200);
+    }, 500);
     return () => clearTimeout(timer);
   }, []);
 

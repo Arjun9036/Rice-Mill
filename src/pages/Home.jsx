@@ -221,7 +221,7 @@ export default function Home() {
             {/* Logistics */}
             <div className="bg-background-light border border-primary/20 rounded-none group hover:border-primary transition-colors overflow-hidden flex flex-col">
               <div className="h-64 overflow-hidden relative">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJemfU_15fMd_nQLlUurCktdQ70MWd3ZgFhF3x5nticPg_y-vs-rX8v_tC4oazxq5z8PLJzCfQrIyMxbFVujviA93LMiSlBc1otWArUDD1A4oZYYEH3vuHeQquSZ4lbkM6Xjf_wnEiz_A4LVSZIfNw6E0dLWCIl6X5O-9iZphpK87a4xQLNIRGRc9DfoLzwLgwVBb9UqGr-nWv7mumT1wJHmGQgpKDmPsfRv6d9xV0Yr6I9kRe5H7nMqv6DkFNh52pCYGoHPT0qNE" alt="Warehouse & Godowns" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1783074110/Rice_mill_Godownn_wkdox7.jpg" alt="Warehouse & Godowns" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
               <div className="p-10 flex flex-col flex-grow">
                 <h3 className="font-heading text-3xl font-semibold mb-4 text-background-dark">Warehouse & Godowns</h3>
