@@ -25,11 +25,12 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen w-full flex flex-col justify-end parallax-wrapper overflow-hidden bg-background-dark pt-32 pb-12">
-        <div className="absolute inset-0 bg-black/60 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-black/10 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-black/40 z-10"></div>
         <img
-          src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782988891/Rice_mill_main_pvqmd5.jpg"
-          alt="Goel Brothers Rice Mill Interior"
-          className="parallax-bg object-cover w-full h-[140%] absolute top-[-20%] left-0 z-0"
+          src="https://res.cloudinary.com/djpewxz4d/image/upload/v1784400619/ChatGPT_Image_Jul_19_2026_12_19_49_AM_wcp1uw.png"
+          alt="Goel Brothers Agricultural Rice Mill"
+          className="object-cover w-full h-full absolute inset-0 z-0"
         />
 
         {/* Main Hero Content */}
@@ -54,7 +55,7 @@ export default function Home() {
         <div className="relative z-20 w-full px-6 md:px-12 max-w-[1440px] mx-auto mt-16 lg:mt-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            <div className="bg-[#242424]/90 backdrop-blur-md border border-white/10 p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a] transition-colors flex flex-col gap-4">
+            <div className="bg-[#1a1a1a]/40 backdrop-blur-xs border border-white/20 shadow-xl p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a]/60 hover:border-primary/40 hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4 group">
               <div className="text-[#c79c3d]">
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
               </div>
@@ -64,7 +65,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#242424]/90 backdrop-blur-md border border-white/10 p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a] transition-colors flex flex-col gap-4">
+            <div className="bg-[#1a1a1a]/40 backdrop-blur-[2px]md border border-white/20 shadow-xl p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a]/60 hover:border-primary/40 hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4 group">
               <div className="text-[#c79c3d]">
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
               </div>
@@ -74,7 +75,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#242424]/90 backdrop-blur-md border border-white/10 p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a] transition-colors flex flex-col gap-4">
+            <div className="bg-[#1a1a1a]/40 backdrop-blur-[2px] border border-white/20 shadow-xl p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a]/60 hover:border-primary/40 hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4 group">
               <div className="text-[#c79c3d]">
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
               </div>
@@ -84,7 +85,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#242424]/90 backdrop-blur-md border border-white/10 p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a] transition-colors flex flex-col gap-4">
+            <div className="bg-[#1a1a1a]/40 backdrop-blur-[2px] border border-white/20 shadow-xl p-6 md:p-8 rounded-2xl hover:bg-[#1a1a1a]/60 hover:border-primary/40 hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4 group">
               <div className="text-[#c79c3d]">
                 <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
               </div>
@@ -113,7 +114,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mt-20">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mt-20">
             <div className="text-center p-8 bg-surface text-text-inverse">
               <h3 className="text-4xl font-heading font-bold text-primary mb-4">PAN India</h3>
               <p className="font-ui uppercase tracking-widest text-xs">Delivery</p>

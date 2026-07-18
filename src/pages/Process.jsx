@@ -13,7 +13,9 @@ export default function Process() {
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-1/2">
-              <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782973019/Rice_Harvesting_i1pami.jpg" alt="Harvest" className="w-full h-[400px] object-cover shadow-2xl" />
+              <div className="overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500 group">
+                <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782973019/Rice_Harvesting_i1pami.jpg" alt="Harvest" className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+              </div>
             </div>
             <div className="w-full md:w-1/2 space-y-6">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-primary">Stage 01</h3>
@@ -26,7 +28,9 @@ export default function Process() {
 
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
             <div className="w-full md:w-1/2">
-              <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782974341/Rice_Dryer_wj7txj.png" alt="Milling" className="w-full h-[400px] object-cover shadow-2xl" />
+              <div className="overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500 group">
+                <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782974341/Rice_Dryer_wj7txj.png" alt="Milling" className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+              </div>
             </div>
             <div className="w-full md:w-1/2 space-y-6">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-primary">Stage 02</h3>
@@ -39,7 +43,9 @@ export default function Process() {
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-1/2">
-              <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782974781/rice_production_plant_with_5_cyclone_polisher_nti1ot.png" alt="Milling" className="w-full h-[400px] object-cover shadow-2xl" />
+              <div className="overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500 group">
+                <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782974781/rice_production_plant_with_5_cyclone_polisher_nti1ot.png" alt="Milling" className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+              </div>
             </div>
             <div className="w-full md:w-1/2 space-y-6">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-primary">Stage 03</h3>
@@ -52,7 +58,9 @@ export default function Process() {
 
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
             <div className="w-full md:w-1/2">
-              <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782973024/rice_sorting_machine_brryi6.png" alt="Sorting" className="w-full h-[400px] object-cover shadow-2xl" />
+              <div className="overflow-hidden rounded-2xl shadow-2xl hover:shadow-3xl transition-shadow duration-500 group">
+                <img src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782973024/rice_sorting_machine_brryi6.png" alt="Sorting" className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+              </div>
             </div>
             <div className="w-full md:w-1/2 space-y-6">
               <h3 className="text-sm font-semibold uppercase tracking-widest text-primary">Stage 04</h3>

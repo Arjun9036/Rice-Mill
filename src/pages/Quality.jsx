@@ -12,7 +12,7 @@ export default function Quality() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 
-          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow border-t-4 border-primary">
+          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow rounded-2xl border border-gray-100 border-t-4 border-t-primary">
             <ShieldCheck className="w-12 h-12 text-primary mb-6" />
             <h3 className="text-2xl font-heading font-semibold mb-4">Quality Assurance</h3>
             <p className="text-gray-600 font-body leading-relaxed">
@@ -20,7 +20,7 @@ export default function Quality() {
             </p>
           </div>
 
-          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow border-t-4 border-primary">
+          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow rounded-2xl border border-gray-100 border-t-4 border-t-primary">
             <FileCheck2 className="w-12 h-12 text-primary mb-6" />
             <h3 className="text-2xl font-heading font-semibold mb-4">Certified Safe</h3>
             <p className="text-gray-600 font-body leading-relaxed">
@@ -28,7 +28,7 @@ export default function Quality() {
             </p>
           </div>
 
-          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow border-t-4 border-primary">
+          <div className="bg-white p-10 shadow-lg hover:shadow-xl transition-shadow rounded-2xl border border-gray-100 border-t-4 border-t-primary">
             <Truck className="w-12 h-12 text-primary mb-6" />
             <h3 className="text-2xl font-heading font-semibold mb-4">Reliable Supply</h3>
             <p className="text-gray-600 font-body leading-relaxed">

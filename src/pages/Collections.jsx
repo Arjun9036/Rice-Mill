@@ -20,10 +20,10 @@ export default function Collections() {
           </div>
 
           {/* Toggle / Filter */}
-          <div className="flex flex-col items-start md:items-end gap-3 w-full md:w-auto">
-            <h1 className="text-background-dark text-5xl font-heading font-semibold leading-tight tracking-tightest">
-              Available in.
-            </h1>
+          <div className="flex flex-col items-start md:items-end w-full md:w-auto mt-2 md:mt-0">
+            <span className="text-sm font-ui uppercase tracking-widest text-primary mb-3">
+              Available Packaging
+            </span>
             <div className="flex h-12 items-center justify-center rounded bg-[#f3f0e7] p-1 w-full md:w-auto">
               <label className={`flex cursor-pointer h-full items-center justify-center rounded px-6 transition-all ${selectedPack === 'Jute Sacks (60kg)' ? 'bg-background-light shadow-sm text-background-dark' : 'text-primary hover:text-background-dark'}`}>
                 <span className="text-sm font-medium">Jute Sacks (60kg)</span>
@@ -143,7 +143,7 @@ export default function Collections() {
               <div className="bg-background-light/95 p-8 shadow-xl border-r-4 border-primary pointer-events-auto backdrop-blur-md md:text-left ml-auto">
                 <p className="text-sm md:text-base italic text-gray-700 leading-relaxed font-body mb-2">
                   <strong className="font-semibold not-italic text-background-dark">Plant Size:</strong> Short plants that are easy to take care of.<br /><br />
-                  <strong className="font-semibold not-italic text-background-dark">Water Needs:</strong> Grows great even with very little water.<br /><br />
+                  <strong className="font-semibold not-italic text-background-dark">Water Needs:</strong> Grows great even with good amount of water.<br /><br />
                   <strong className="font-semibold not-italic text-background-dark">Growth Time:</strong> Matures very fast for an early harvest.<br /><br />
                   <strong className="font-semibold not-italic text-background-dark">Grain Look:</strong> Nice, clean grains with a great taste.<br /><br />
                   <strong className="font-semibold not-italic text-background-dark">Best For:</strong> Ideal for dry farming areas and daily cooking.

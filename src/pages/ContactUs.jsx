@@ -41,10 +41,10 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="min-h-screen pt-20 flex flex-col lg:flex-row bg-surface text-text-inverse">
+    <div className="min-h-screen flex flex-col lg:flex-row bg-surface text-text-inverse">
 
       {/* Left Column: Context & Map */}
-      <aside className="w-full lg:w-5/12 p-12 lg:p-24 lg:sticky lg:top-0 lg:h-screen flex flex-col justify-center overflow-hidden relative border-r border-white/10">
+      <aside className="w-full lg:w-5/12 p-12 pt-28 lg:px-16 lg:pt-32 lg:pb-12 flex flex-col relative border-r border-white/10">
         <div className="relative z-10">
           <h1 className="font-heading text-5xl lg:text-6xl font-semibold tracking-tightest mb-6 text-primary">Get in Touch</h1>
           <p className="font-body text-lg text-text-inverse/80 leading-relaxed max-w-md">
@@ -53,22 +53,26 @@ export default function ContactUs() {
 
           <div className="mt-16 space-y-8 font-ui text-[13px] tracking-widest uppercase text-muted">
             <div>
-              <div className="text-primary mb-2">Address</div>
-              <div className="text-text-inverse/90 leading-relaxed flex items-start gap-2">
+              <div className="text-[11px] font-ui uppercase tracking-widest text-primary font-medium mb-2">Address</div>
+              <div className="text-text-inverse/90 leading-relaxed flex items-start gap-3">
                 <a href="https://www.google.com/maps/place/Goel+brothers+Rice+mill/@28.1620643,80.4187755,17z/data=!3m1!4b1!4m6!3m5!1s0x399f679dc07028ab:0xf03d3488db24773f!8m2!3d28.1620597!4d80.4236464!16s%2Fg%2F11j20y0rdx?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors mt-[2px]" title="View on Google Maps">
-                  <span className="material-symbols-outlined text-[16px]">location_on</span>
+                  <span className="material-symbols-outlined text-[18px] text-primary">location_on</span>
                 </a>
-                <div>
-                  <a href="https://www.google.com/maps/place/Goel+brothers+Rice+mill/@28.1620643,80.4187755,17z/data=!3m1!4b1!4m6!3m5!1s0x399f679dc07028ab:0xf03d3488db24773f!8m2!3d28.1620597!4d80.4236464!16s%2Fg%2F11j20y0rdx?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">
+                <div className="flex flex-col gap-1.5">
+                  <a href="https://www.google.com/maps/place/Goel+brothers+Rice+mill/@28.1620643,80.4187755,17z/data=!3m1!4b1!4m6!3m5!1s0x399f679dc07028ab:0xf03d3488db24773f!8m2!3d28.1620597!4d80.4236464!16s%2Fg%2F11j20y0rdx?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="leading-relaxed hover:text-primary transition-colors">
                     Bankeyganj-Kukra Road, Grant No. 10, <br />
                     Tehsil Gola Gokarannath, Distt Lakhimpur Kheri,<br />
                     Uttar Pradesh, 262801
+                  </a>
+                  <a href="https://www.google.com/maps/place/Goel+brothers+Rice+mill/@28.1620643,80.4187755,17z/data=!3m1!4b1!4m6!3m5!1s0x399f679dc07028ab:0xf03d3488db24773f!8m2!3d28.1620597!4d80.4236464!16s%2Fg%2F11j20y0rdx?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-primary hover:text-white transition-colors text-[11px] font-ui uppercase tracking-widest font-medium mt-1 group">
+                    <span>Get Directions</span>
+                    <span className="material-symbols-outlined text-[14px] group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">arrow_outward</span>
                   </a>
                 </div>
               </div>
             </div>
             <div>
-              <div className="text-primary mb-4">Contact No.</div>
+              <div className="text-[11px] font-ui uppercase tracking-widest text-primary font-medium mb-4">Contact No.</div>
 
               <div className="mb-5">
                 <div className="text-[11px] font-ui uppercase tracking-widest text-text-inverse font-medium mb-1.5"> Anubhav Agarwal </div>
@@ -105,7 +109,7 @@ export default function ContactUs() {
               </div>
             </div>
             <div>
-              <div className="text-primary mb-2">Email</div>
+              <div className="text-[11px] font-ui uppercase tracking-widest text-primary font-medium mb-2">Email</div>
               <a href="mailto:contact@goelbrothers.com" className="text-white/90 hover:text-primary transition-colors text-sm font-medium mb-4">
                 goelbrothersbkg@gmail.com
               </a>
@@ -121,7 +125,7 @@ export default function ContactUs() {
       </aside>
 
       {/* Right Column: Form */}
-      <section className="w-full lg:w-7/12 p-12 lg:p-24 lg:pl-32 bg-[#F5F5F5] text-text flex items-center min-h-screen lg:min-h-0">
+      <section className="w-full lg:w-7/12 p-12 pt-28 lg:p-24 lg:pt-32 lg:pl-32 bg-[#F5F5F5] text-text flex flex-col min-h-screen lg:min-h-0">
         <div className="w-full max-w-xl">
 
           {!formSubmitted ? (
@@ -153,11 +157,11 @@ export default function ContactUs() {
                 <div className="space-y-8 pt-8">
                   <h3 className="font-ui text-[12px] uppercase tracking-widest text-muted border-b border-muted/20 pb-4">02. Your Message</h3>
                   <div className="relative">
-                    <textarea id="message" rows="4" required placeholder="How can we help you today?" className="custom-input w-full bg-transparent border-0 border-b border-text text-text font-body text-lg py-3 px-0 placeholder:text-muted/50 focus:ring-0 transition-colors resize-none"></textarea>
+                    <textarea id="message" rows="2" required placeholder="How can we help you today?" className="custom-input w-full bg-transparent border-0 border-b border-text text-text font-body text-lg py-3 px-0 placeholder:text-muted/50 focus:ring-0 transition-colors resize-none"></textarea>
                   </div>
                 </div>
 
-                <div className="pt-8">
+                <div className="pt-0">
                   <button
                     type="submit"
                     disabled={isSubmitting}
