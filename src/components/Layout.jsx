@@ -34,7 +34,7 @@ export default function Layout() {
       {/* Loading Screen */}
       <div id="loading-screen" className={isLoading ? '' : 'hidden-loading'}>
         <img
-          src="https://res.cloudinary.com/djpewxz4d/image/upload/v1782990182/Untitled_-_02_July_2026_at_16.32.05_zlk7zu.png"
+          src="https://res.cloudinary.com/djpewxz4d/image/upload/v1784402639/ChatGPT_Image_Jul_19_2026_12_53_43_AM_or9gil.png"
           alt="Loading..."
           className="h-62 w-auto object-contain crest-fade"
         />
