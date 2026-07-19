@@ -29,8 +29,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-black/40 z-10"></div>
         <img
           src="https://res.cloudinary.com/djpewxz4d/image/upload/v1784400619/ChatGPT_Image_Jul_19_2026_12_19_49_AM_wcp1uw.png"
-          alt="Goel Brothers Agricultural Rice Mill"
-          className="object-cover w-full h-full absolute inset-0 z-0"
+          alt="Goel Brothers Agricultural Rice Mill Desktop"
+          className="hidden md:block object-cover w-full h-full absolute inset-0 z-0"
+        />
+        <img
+          src="https://res.cloudinary.com/djpewxz4d/image/upload/v1784440116/ChatGPT_Image_Jul_19_2026_11_17_29_AM_mclh6g.png"
+          alt="Goel Brothers Agricultural Rice Mill Mobile"
+          className="block md:hidden object-cover w-full h-full absolute inset-0 z-0"
         />
 
         {/* Main Hero Content */}
