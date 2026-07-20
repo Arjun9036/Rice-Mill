@@ -25,8 +25,8 @@ export default function Collections() {
               Available Packaging
             </span>
             <div className="flex h-12 items-center justify-center rounded bg-[#f3f0e7] p-1 w-full md:w-auto">
-              <label className={`flex cursor-pointer h-full items-center justify-center rounded px-6 transition-all ${selectedPack === 'Jute Sacks (60kg)' ? 'bg-background-light shadow-sm text-background-dark' : 'text-primary hover:text-background-dark'}`}>
-                <span className="text-sm font-medium">Jute Sacks (60kg)</span>
+              <label className={`flex-1 flex cursor-pointer h-full items-center justify-center rounded px-2 md:px-6 transition-all ${selectedPack === 'Jute Sacks (60kg)' ? 'bg-background-light shadow-sm text-background-dark' : 'text-primary hover:text-background-dark'}`}>
+                <span className="text-xs md:text-sm font-medium text-center">Jute Sacks (60kg)</span>
                 <input
                   type="radio"
                   className="hidden"
@@ -35,8 +35,8 @@ export default function Collections() {
                   onChange={(e) => setSelectedPack(e.target.value)}
                 />
               </label>
-              <label className={`flex cursor-pointer h-full items-center justify-center rounded px-6 transition-all ${selectedPack === 'Plastic Bags (50kg)' ? 'bg-background-light shadow-sm text-background-dark' : 'text-primary hover:text-background-dark'}`}>
-                <span className="text-sm font-medium">Plastic Bags (50kg)</span>
+              <label className={`flex-1 flex cursor-pointer h-full items-center justify-center rounded px-2 md:px-6 transition-all ${selectedPack === 'Plastic Bags (50kg)' ? 'bg-background-light shadow-sm text-background-dark' : 'text-primary hover:text-background-dark'}`}>
+                <span className="text-xs md:text-sm font-medium text-center">Plastic Bags (50kg)</span>
                 <input
                   type="radio"
                   className="hidden"
@@ -118,7 +118,7 @@ export default function Collections() {
             </div>
             {/* Overlapping Text */}
             <div className="w-full md:w-[45%] md:absolute md:right-0 z-20 md:pointer-events-none mt-[-40px] md:mt-0 px-4 md:px-0">
-              <h3 className="text-5xl md:text-[64px] font-heading font-semibold text-background-light leading-[0.9] tracking-tight drop-shadow-sm mb-4">
+              <h3 className="text-5xl md:text-[64px] font-heading font-semibold text-background-dark md:text-background-light leading-[0.9] tracking-tight drop-shadow-sm mb-4">
                 PR<br />131
               </h3>
               <div className="bg-background-light/95 p-8 shadow-xl border-l-4 border-primary pointer-events-auto backdrop-blur-md">
@@ -137,7 +137,7 @@ export default function Collections() {
           <article className="relative flex w-full items-center justify-end flex-col-reverse md:flex-row gap-8 md:gap-0 mt-20 md:mt-0">
             {/* Overlapping Text (Left) */}
             <div className="w-full md:w-[45%] md:absolute md:left-0 z-20 md:pointer-events-none md:text-right px-4 md:px-0 mt-[-40px] md:mt-0">
-              <h3 className="text-5xl md:text-[64px] font-heading font-semibold text-background-light leading-[0.9] tracking-tight drop-shadow-sm mb-4">
+              <h3 className="text-5xl md:text-[64px] font-heading font-semibold text-background-dark md:text-background-light leading-[0.9] tracking-tight drop-shadow-sm mb-4">
                 Govinda<br />Paddy
               </h3>
               <div className="bg-background-light/95 p-8 shadow-xl border-r-4 border-primary pointer-events-auto backdrop-blur-md md:text-left ml-auto">
